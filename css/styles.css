@@ -87,6 +87,7 @@ box-shadow: 0px 0px 5px 5px #888888;
 margin-left: 12%;
 font-family: "Inconsolata";	
 color: rgb(40,40,40);
+font-size: 14px;
 }
 
 
@@ -105,9 +106,12 @@ border:none;
 #AssociationInput input[type=file]
 {
 background: darkorange;
-height: 30px;	
+height: 0px;
+width: 0px;	
+
 margin-top: 20px;
 margin-bottom: 10px;
+display:none;
 }
 
 
@@ -125,10 +129,11 @@ padding: 2%;
 #AssociationSubmit
 {
 margin-left: 10%;
-margin-top: 40px;
+margin-top: 20px;
 width: 40%;
 height: 20px;
 background: black;
+font-size: 16px;
 color: white;
 text-align: center;
 padding: 10px;

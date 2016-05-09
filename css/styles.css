@@ -48,3 +48,23 @@ border: solid 1px rgb(90,128,90);
 {
 background: darkorange;	
 }
+
+
+.association
+{
+position: absolute;
+left: 20px;
+top: 50px;
+width: auto;
+height: 20px;
+background: silver;
+color: rgb(30,30,30);
+padding: 3px;	
+}
+
+
+.association:hover
+{
+background: darkorange;	
+cursor: pointer;
+}

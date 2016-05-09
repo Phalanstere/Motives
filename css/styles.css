@@ -68,3 +68,75 @@ padding: 3px;
 background: darkorange;	
 cursor: pointer;
 }
+
+
+#AssociationInput
+{
+position: absolute;
+left: 50px;
+top: 50px;
+width: 360px;
+height: 480px;
+z-index: 100;
+background: white;
+box-shadow: 0px 0px 5px 5px #888888;	
+}
+
+#AssociationInput label
+{
+margin-left: 12%;
+font-family: "Inconsolata";	
+color: rgb(40,40,40);
+}
+
+
+#AssociationInput input
+{
+margin-bottom: 10px;
+margin-left: 10%;
+width: 78%;
+padding: 2%;
+height: 20px; 	
+background: gainsboro;
+outline: none;
+border:none;
+}
+
+#AssociationInput input[type=file]
+{
+background: darkorange;
+height: 30px;	
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+
+#AssociationInput textarea
+{
+margin-left: 10%;
+width: 78%;
+background: gainsboro;
+outline: none;
+border:none;
+padding: 2%;
+}
+
+
+#AssociationSubmit
+{
+margin-left: 10%;
+margin-top: 40px;
+width: 40%;
+height: 20px;
+background: black;
+color: white;
+text-align: center;
+padding: 10px;
+letter-spacing: 3px;
+}
+
+
+#AssociationSubmit:hover
+{
+background: darkgreen;	
+}

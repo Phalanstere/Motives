@@ -59,7 +59,7 @@ width: auto;
 height: 20px;
 background: silver;
 color: rgb(30,30,30);
-padding: 3px;	
+padding: 6px;	
 }
 
 
@@ -108,10 +108,10 @@ border:none;
 background: darkorange;
 height: 0px;
 width: 0px;	
-
 margin-top: 20px;
 margin-bottom: 10px;
-display:none;
+display: none;
+
 }
 
 

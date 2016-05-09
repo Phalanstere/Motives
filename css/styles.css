@@ -35,11 +35,16 @@ font-family: "Inconsolata";
 
 .motives_block
 {
-width: 24px;
+width: auto;
+min-width: 20px;
 height: 24px;
 margin-top: 4px;
 margin-left: 6px;
+float: left;
 background: darkgray;
+padding-left: 2px;
+padding-right: 2px;
+cursor: pointer;
 border: solid 1px rgb(90,128,90);
 }
 
@@ -138,6 +143,7 @@ color: white;
 text-align: center;
 padding: 10px;
 letter-spacing: 3px;
+cursor: pointer;
 }
 
 

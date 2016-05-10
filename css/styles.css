@@ -120,6 +120,30 @@ display: none;
 }
 
 
+#AssociationInput select
+{
+margin-left: 10%;
+width: 78%;
+background: gainsboro;
+outline: none;
+border:none;
+padding: 2%;
+letter-spacing: 1px;	
+height: 30px;
+}
+
+
+#AssociationInput option:hover
+{
+background: black;	
+}
+
+#AssociationInput option
+{
+padding: 4px;	
+}
+
+
 #AssociationInput textarea
 {
 margin-left: 10%;

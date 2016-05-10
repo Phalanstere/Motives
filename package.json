@@ -1,0 +1,32 @@
+{
+  "name": "motives",
+  "version": "0.0.1",
+  "description": "Storytelling and mindmapping tool",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Phalanstere/Motives.git"
+  },
+  "keywords": [
+    "storytelling",
+    "authoring"
+  ],
+  "dependencies": {
+  	"jquery": "^1.8.0",
+  	"textract": "^1.2.0"
+   },
+    "devDependencies": {
+    "browserify": "^10.2.4",
+    "browserify-css": "~0.7.1"
+  },
+
+  "author": "Phalanstere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Phalanstere/Motives/issues"
+  },
+  "homepage": "https://github.com/Phalanstere/Motives"
+}

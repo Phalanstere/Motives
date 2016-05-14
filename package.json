@@ -16,6 +16,7 @@
   ],
   "dependencies": {
   	"jquery": "^1.8.0",
+  	"jquery-ui": "^1.10.5",
   	"textract": "^1.2.0"
    },
     "devDependencies": {

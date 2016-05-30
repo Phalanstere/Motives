@@ -6,8 +6,19 @@ height: 400px;
 top: 0;
 left: 100px;
 background: red;	
-	
 }
+
+
+#Viewer
+{
+position: absolute;	
+width: 60%;
+height: 400px;
+top: 400px;
+left: 100px;
+background: plum;	
+}
+
 
 .motives_page
 {
@@ -73,6 +84,60 @@ padding: 6px;
 background: darkorange;	
 cursor: pointer;
 }
+
+
+#AssociationJSON
+{
+position: absolute;
+width: 70%;
+height: 60%;
+left: 5%;
+top: 10%;
+border:solid 4px black;	
+background: white;
+z-index: 1000;
+font-family: Inconsolata;
+}
+
+#AssociationJSON #exit
+{
+position: absolute;
+right: 1%;
+top: 1%;
+width: 30px;
+height: 30px;
+font-size: 30px;	
+cursor: pointer;
+text-align: right;
+}
+
+
+#AssociationJSON #association_text
+{
+position: absolute;
+top: 7%;
+left: 3%;
+width: 94%;
+height: 80%;
+}
+
+
+#AssociationJSON #submit
+{
+position: absolute;
+bottom: 1%;
+left: 3%;
+width: 150px;
+height: auto;
+font-size: 20px;
+border:solid 3px black;	
+cursor: pointer;
+text-align: center;
+background: gainsboro;
+padding: 8px;
+}
+
+
 
 
 #AssociationInput

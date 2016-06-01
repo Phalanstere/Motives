@@ -33,6 +33,25 @@ z-index: 2;
 }
 
 
+.motives_page #info
+{
+position: absolute;
+bottom: 2%;
+left: 2%;
+width: auto;
+height: 30px;
+font-size: 30px;	
+color: rgb(64,64,64);
+}
+
+.motives_page #info:hover
+{
+color: darkorange;
+cursor: pointer;	
+}
+
+
+
 .motives_menu
 {
 position: absolute;
@@ -156,9 +175,9 @@ padding: 8px;
 {
 position: absolute;
 left: 50px;
-top: 50px;
-width: 360px;
-height: 500px;
+top: 5%;
+width: 460px;
+height: 80%;
 z-index: 100;
 background: white;
 box-shadow: 0px 0px 5px 5px #888888;	
@@ -225,8 +244,7 @@ width: 78%;
 background: gainsboro;
 outline: none;
 border:none;
-padding: 2%;
-letter-spacing: 1px;	
+padding: 6px;	
 height: 30px;
 }
 
@@ -239,6 +257,7 @@ background: black;
 #AssociationInput option
 {
 padding: 4px;	
+height: 20px;
 }
 
 
@@ -247,10 +266,18 @@ padding: 4px;
 margin-left: 10%;
 width: 78%;
 background: gainsboro;
+font-size: 14px;
 outline: none;
 border:none;
 padding: 2%;
 }
+
+#AssocFulltext
+{
+height: 50%;
+font-size: 18px;	
+}
+
 
 
 #AssociationSubmit

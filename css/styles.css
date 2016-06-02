@@ -246,6 +246,21 @@ width: 48%;
 border:solid 1px black;
 background: wheat;
 margin-top: 5px;	
+float: left;
+}
+
+
+
+.motives_menu #tag_search
+{
+margin-left: 10px;
+padding-left: 4px;
+outline: none;
+width: 40%;
+border:solid 1px black;
+background: lightgreen;
+margin-top: 5px;	
+float: left;
 }
 
 

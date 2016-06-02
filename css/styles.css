@@ -51,6 +51,171 @@ cursor: pointer;
 }
 
 
+.motives_page #search_results
+{
+position: absolute;
+left: 70%;
+width: 30%;
+top: 36px;
+height: 94%;
+background: white;
+box-shadow: -6px 0 5px #888888;
+z-index: 2;
+}
+
+.motives_page #search_results #field
+{
+position: absolute;
+top: 4%;
+left: 2%;
+width: 94%;
+height: 94%;
+background: rgba(0,255,0,0.12);	
+padding: 4px;
+font-family: Inconsolata;
+}
+
+
+.motives_page #search_results .result
+{
+position: relative;
+color: darkgray;
+margin-left: 5px;
+margin-bottom: 3px;	
+}
+
+.motives_page #search_results .result:hover
+{
+cursor: pointer;
+}
+
+
+.motives_page #search_results .assoc_link
+{
+color: darkblue;	
+font-weight: 600;	
+}
+
+.motives_page #search_results .assoc_link:hover
+{
+color: darkorange;
+}
+
+
+.motives_page #search_results .project_link
+{
+margin-left: 6px;
+color: darkgreen;	
+}
+
+.motives_page #search_results .project_link:hover
+{
+color: red;	
+}
+
+
+
+.motives_page #search_results #exit
+{
+position: absolute;
+left: 10px;
+top: 10px;
+width: 24px;
+height: 24px;
+font-size: 20px;
+font-family: Arial;
+color: darkgrey;
+cursor: pointer;
+}
+
+.motives_page #search_results #exit:hover
+{
+color: orange;	
+}
+
+
+
+.motives_page #association_window
+{
+position: absolute;
+left: 0%;
+width: 30%;
+top: 36px;
+height: 94%;
+background: white;
+box-shadow: 6px 0 5px #888888;
+z-index: 2;	
+}
+
+
+.motives_page #association_window #exit
+{
+position: absolute;
+right: 10px;
+top: 10px;
+width: 24px;
+height: 24px;
+font-size: 20px;
+font-family: Arial;
+color: darkgrey;
+cursor: pointer;
+text-align: right;
+}
+
+.motives_page #association_window #exit:hover
+{
+color: orange;	
+}
+
+
+.motives_page #association_window #field
+{
+position: absolute;
+top: 4%;
+left: 2%;
+width: 94%;
+height: 94%;
+background: rgba(0,255,0,0.12);	
+padding: 4px;
+font-family: Inconsolata;
+}
+
+#association_window textarea
+{
+margin-left: 10%;
+width: 78%;
+background: gainsboro;
+font-size: 14px;
+outline: none;
+border:none;
+padding: 2%;
+}
+
+
+#association_window label
+{
+margin-left: 12%;
+font-family: "Inconsolata";	
+color: rgb(40,40,40);
+font-size: 14px;
+}
+
+
+#association_window input
+{
+margin-bottom: 10px;
+margin-left: 10%;
+width: 78%;
+padding: 2%;
+height: 20px; 	
+background: gainsboro;
+outline: none;
+border:none;
+}
+
+
+
+
 
 .motives_menu
 {
@@ -60,6 +225,27 @@ height: 32px;
 background: gainsboro;
 border-bottom: solid 1px darkgray;	
 font-family: "Inconsolata";
+}
+
+
+.motives_menu #search
+{
+position: absolute; 
+width: 24%;
+left: 75%;
+top: 0;
+height: 100%;	
+}
+
+.motives_menu #fulltext_search
+{
+margin-left: 10px;
+padding-left: 4px;
+outline: none;
+width: 48%;
+border:solid 1px black;
+background: wheat;
+margin-top: 5px;	
 }
 
 

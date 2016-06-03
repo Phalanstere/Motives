@@ -20,7 +20,9 @@
   	"textract": "^1.2.0",
   	"jsfile": "^0.1.17",
   	"mammoth": "^1.0.3",
-  	"browserify-fs": "^1.0.0"
+  	"browserify-fs": "^1.0.0",
+  	"nedb": "^1.2.1",
+  	"brfs":  "^1.4.3"
    },
     "devDependencies": {
     "browserify": "^10.2.4",

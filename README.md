@@ -12,6 +12,24 @@ You may download the zipped file or install it via npm
 	npm install motives
 ``` 
 
+## Minimal index file
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>LoopedEvents Minimal</title>
+
+   <link href='http://fonts.googleapis.com/css?family=Oswald|Inconsolata' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="node_modules/motives/css/styles.css">
+
+    <script src="bundle.js"></script> 
+
+
+  </body>
+</html>
+``` 
 
 
 ## Usage
@@ -28,4 +46,7 @@ The creation of an instance is easy
 	the first parameter holds the dom element. If it is null, the programs appends itself to the body and uses the full screen 
 		
 ``` 
+
+
+
 

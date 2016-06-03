@@ -1,0 +1,4 @@
+Bug - the update logic has still some problems
+
+
+Wenn ich die Datei wechsele, kommt es beim nächsten Speichern zu Schwierigkeiten

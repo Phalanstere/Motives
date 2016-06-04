@@ -20,6 +20,53 @@ background: plum;
 }
 
 
+.motives_prompt
+{
+position: absolute;
+left: 0;
+right: 0;
+top: -20%;
+bottom: 0;
+width: 400px;
+height: 200px;
+box-shadow: 0 0 15px #888888;
+border:solid 2px rbg(32,32,32);
+margin:auto;	
+}
+
+.motives_prompt input
+{
+width: 80%;
+margin-left: 10%;
+margin-top: 20px;
+height: 30px;
+font-size: 20px;
+padding-left: 22px;
+padding: 6px;
+background: gainsboro;
+outline: none;
+border:none;
+font-family: Inconsolata;	
+}
+
+.motives_prompt .submit
+{
+margin-left: 10%;
+margin-top: 20px;
+width: 40%;
+height: 20px;
+background: black;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 10px;
+letter-spacing: 3px;
+cursor: pointer;
+}
+
+
+
+
 .motives_page
 {
 position: absolute;

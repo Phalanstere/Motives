@@ -32,6 +32,7 @@ You may download the zipped file or install it via npm
 ``` 
 
 
+
 ## Usage
 
 ```javascript
@@ -40,13 +41,14 @@ You may download the zipped file or install it via npm
 
 Just requiring creates an instance of the program, that you can manipulate via **$(".motives_page")**
 
-Since a local database is embedded [**nedb**](https://github.com/louischatriot/nedb) you can store your information locally.
+Since the local [**nedb**](https://github.com/louischatriot/nedb) database is embedded  you can store your information locally.
+
+
+
+<img src="http://burckhardt.ludicmedia.de/Motives.png">
 
 
 If you want to use it as a desktop application, [have a look](https://github.com/Phalanstere/WritersStudio) here
-
-
-
 
 
 

@@ -38,14 +38,20 @@ You may download the zipped file or install it via npm
 	var motives = require("motives");
 ``` 
 
-The creation of an instance is easy
+Just requiring creates an instance of the program, that you can manipulate via **$(".motives_page")**
 
-```javascript
-	var motives = new motives(null, null);
-	
-	the first parameter holds the dom element. If it is null, the programs appends itself to the body and uses the full screen 
-		
-``` 
+Since a local database is embedded (**nedb**) you can store your information locally.
+To m
+
+
+https://github.com/Phalanstere/WritersStudio
+
+This is [an example](http://example.com/ "Title") inline link.
+
+
+If you want to use it as a desktop application, [have a look](https://github.com/Phalanstere/WritersStudio) here
+
+
 
 
 

@@ -30,8 +30,10 @@ bottom: 0;
 width: 400px;
 height: 200px;
 box-shadow: 0 0 15px #888888;
+background: white;
 border:solid 2px rbg(32,32,32);
 margin:auto;	
+z-index: 100;
 }
 
 .motives_prompt input

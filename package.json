@@ -1,6 +1,6 @@
 {
   "name": "motives",
-  "version": "0.0.44",
+  "version": "0.0.45",
   "description": "Storytelling and mindmapping tool",
   "main": "lib/index.js",
   "scripts": {

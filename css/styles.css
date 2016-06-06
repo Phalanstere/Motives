@@ -477,6 +477,18 @@ outline: none;
 border:none;
 }
 
+#AssosicationInput #AssocLink
+{
+width: 65%;	
+}
+
+#AssosicationInput #LinkTrigger
+{
+background: blue;
+color: red;	
+}
+
+
 #AssociationInput input[type=file]
 {
 background: darkorange;

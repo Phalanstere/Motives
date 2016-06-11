@@ -64,7 +64,17 @@ Since the local [**nedb**](https://github.com/louischatriot/nedb) database is em
 <img src="http://burckhardt.ludicmedia.de/Motives.png">
 
 
-If you want to use it as a desktop application, [have a look](https://github.com/Phalanstere/WritersStudio) here
+##Desktop Application
+
+There is a [full fledged desktop application](https://github.com/Phalanstere/WritersStudio) - created via electron - that you might use. 
+The advantage of this version is that it utilizes the local file system and allows the linkage of document or online files.
+
+In this version the program does not only serve as a mind map, but as a general meta-organizational tool. 
+
+
+
+
+
 
 
 

@@ -24,8 +24,6 @@ You may download the zipped file or install it via npm
    <link href='http://fonts.googleapis.com/css?family=Oswald|Inconsolata' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" href="node_modules/motives/css/styles.css">
 
-    <script src="bundle.js"></script> 
-
 
   </body>
 </html>
@@ -36,10 +34,28 @@ You may download the zipped file or install it via npm
 ## Usage
 
 ```javascript
-	var motives = require("motives");
+	var Motives = require("motives");
+	var m = new Motives(null, null)
 ``` 
 
-Just requiring creates an instance of the program, that you can manipulate via **$(".motives_page")**
+
+The second parameter hold the div you want the programm to appear in. If set to **null** (which is recommended) it takes over the whole screen. The third parameter takes a json object which allows you to import a given project.  
+
+A full index.s file that can be built with **browserify** might look like this:
+
+```javascript
+"use strict";
+var $ = require("jquery");
+var Motives 	= require("./motives.js");
+
+var d;
+
+$( document ).ready(function() {
+	d = new Motives(null, null);	
+
+});
+``` 
+
 
 Since the local [**nedb**](https://github.com/louischatriot/nedb) database is embedded  you can store your information locally.
 
